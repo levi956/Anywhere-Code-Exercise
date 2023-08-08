@@ -20,12 +20,6 @@ Flutter Framework.
 - It communicates with several REST APIs to display information about characters.
 
 
-### Prerequisites
-
-- List any prerequisites or system requirements.
-- Include links to download and install any software or tools.
-
-
 ## Configuration and Installation
 1. Make sure you have [Flutter](https://flutter.dev/docs/get-started/install) and its dependencies installed on your device.
 2. Clone the repository: `git clone https://github.com/yourusername/my-app.git`
@@ -37,4 +31,6 @@ Flutter Framework.
 
 
 ```bash
-flutter run
+flutter run lib/main_s.dart --flavor simpsons`
+
+flutter run lib/main_w.dart --flavor wire`
