@@ -3,17 +3,6 @@
 Code Exercise to demonstrate Sofware Engineering Candidate Skills.
 
 
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Screenshots](#screenshots)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Dependencies](#dependencies)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Overview
 
 Code Exercise is to create 2 variants of a flutter application targeting ios and android mobile platform using the 
@@ -23,30 +12,29 @@ Flutter Framework.
 
 - The Mobile Application features 2 variants from a single codebase.
 
-## Screenshots
 
-Showcase some relevant screenshots or UI/UX design of the application.
+## Technical details
+- The application is built with Flutter, using the Dart programming language.
+- The major state management used is "Riverpod" & "Flutter Hooks".
+- The app follows functional, object oriented and imperative programming paradigms.
+- It communicates with several REST APIs to display information about characters.
 
-## Getting Started
 
 ### Prerequisites
 
 - List any prerequisites or system requirements.
 - Include links to download and install any software or tools.
 
-### Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/project-name.git`
-2. Navigate to the project directory: `cd project-name`
-3. Install dependencies: `flutter pub get`
+## Configuration and Installation
+1. Make sure you have [Flutter](https://flutter.dev/docs/get-started/install) and its dependencies installed on your device.
+2. Clone the repository: `git clone https://github.com/yourusername/my-app.git`
+3. Go to the project directory: `cd my-app`
+4. Run `flutter pub get` to install the dependencies.
+5. The applicaiton has two flavour variants, so pass the target which is [`lib/main_s.dart --flavor simpsons] or [lib/main_w.dart --flavor wire]
+5. Run `flutter run lib/main_s.dart --flavor simpsons` to start the app on an emulator or connected device.
 
-### Configuration
 
-Provide any configuration steps that need to be done before running the app.
-
-## Usage
-
-Explain how to run the project and any available scripts or commands.
 
 ```bash
 flutter run
