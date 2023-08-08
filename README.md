@@ -1,16 +1,52 @@
-# anywhere_code_exercise
+# Anywhere Code Exercise
 
-A new Flutter project.
+Code Exercise to demonstrate Sofware Engineering Candidate Skills.
+
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Dependencies](#dependencies)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Overview
+
+Code Exercise is to create 2 variants of a flutter application targeting ios and android mobile platform using the 
+Flutter Framework.
+
+## Features
+
+- The Mobile Application features 2 variants from a single codebase.
+
+## Screenshots
+
+Showcase some relevant screenshots or UI/UX design of the application.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- List any prerequisites or system requirements.
+- Include links to download and install any software or tools.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository: `git clone https://github.com/your-username/project-name.git`
+2. Navigate to the project directory: `cd project-name`
+3. Install dependencies: `flutter pub get`
+
+### Configuration
+
+Provide any configuration steps that need to be done before running the app.
+
+## Usage
+
+Explain how to run the project and any available scripts or commands.
+
+```bash
+flutter run
